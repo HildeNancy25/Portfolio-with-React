@@ -2,23 +2,32 @@ import React from 'react'
 import Header from '../components/Header'
 import SocialMedia from '../components/Footer'
 import { Link } from 'react-router-dom'
+import AboutPage from './About'
+import Resume from './Skills'
+import Projects from './Projects'
 
-function HomePage  () {
+function HomePage() {
   return (
     <>
-        <div className='relative'>
-            <div className='fixed top-0 left-0 right-0'>
-                <Header />
-            
-                <div className=' w-full bg-gray-100 bg-homebg'>
-                    <p className='flex flex-col items-center text-xl'>Hello, am Nancy <span> FRONT-END Developer</span> </p>
-                    <a to='file:///C:/Users/HP/Downloads/Hilde%20CV.pdf'><button className='bg-yellow-600 border-2 hover:bg-yellow-400 p-3 rounded-2xl'> DOWNLOAD CV </button></a>
-                </div>
-                <div>
-                  <SocialMedia />
-                </div>
-            </div>
+      <div className=''>
+        <div className='fixed w-full'>
+          <Header />
         </div>
+          <div className='flex flex-col items-center justify-center gap-3 w-full h-96 bg-gray-100 md:px-0 sm:px-4'>
+            <p className='text-xl'>Hello, my name is <span className='text-2xl text-[#a82c7c]'> Nancy  </span></p>
+            <p className='text-xl'>Hardworking is not an option but a principle.
+              Am a FRONT-END web developer
+              and UI/UX designer.
+            </p>
+            <a to='file:///C:/Users/HP/Downloads/Hilde%20CV.pdf'><button className='bg-[#c43e95] hover:bg-[#a82c7c] p-3 rounded-2xl animate-pulse'> <b>DOWNLOAD CV</b> </button></a>
+          </div>
+          <div>
+            <AboutPage />
+            <Resume />
+            <Projects />
+            <SocialMedia />
+          </div>
+      </div>
     </>
   )
 }
