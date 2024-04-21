@@ -9,7 +9,11 @@ export default {
       'sm': '320px',
       'md': '768px'
     },
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'homebg': "url['bg.jpg']",
+      }
+    },
   },
   plugins: [],
 }
