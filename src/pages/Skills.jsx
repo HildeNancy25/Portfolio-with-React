@@ -16,7 +16,7 @@ const Resume = () => {
                     <li> Web Design Strategy and Information Architecture</li>
                     <li> Strategy and Information Architecture</li>
                 </ul>
-                <a href="file:///C:/Users/HP/Desktop/Hilde/California%20University%20of%20ARTS/UIUX%20Design%20Specialist.pdf">
+                <a href="/src/assets/UIUXDesignSpecialist.pdf">
                     <button class="px-3 py-1 mt-8 border rounded-full border-[#a82c7c] hover:bg-[#a82c7c]
                     hover:text-black"> VIEW CERTIFICATE </button>
                 </a>
