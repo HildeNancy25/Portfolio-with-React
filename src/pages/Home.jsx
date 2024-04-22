@@ -20,7 +20,7 @@ function HomePage() {
               Am a FRONT-END developer
               and UI/UX designer.
             </p>
-            <a to='file:///C:/Users/HP/Downloads/Hilde%20CV.pdf'><button className='bg-[#c43e95] hover:bg-[#a82c7c] p-3 rounded-2xl animate-pulse'> <b>DOWNLOAD CV</b> </button></a>
+            <a href='../assets/HildeCV.pdf' download><button className='bg-[#c43e95] hover:bg-[#a82c7c] p-3 rounded-2xl animate-pulse'> <b>DOWNLOAD CV</b> </button></a>
           </div>
           <div>
             <AboutPage />
