@@ -3,8 +3,8 @@ import React from 'react'
 const Resume = () => {
     return (
         <>
-        <div className='text-2xl font-bold flex text-[#a82c7c] justify-center'> Skills </div>
-        <section class="flex md:flex-row sm:flex-col items-center justify-center gap-8 md:my-20 sm:my-10 flex-wrap">
+        <div id='skills' className='text-2xl font-bold flex text-[#a82c7c] justify-center'> Skills </div>
+        <section class="flex md:flex-row sm:flex-col items-center justify-center gap-8 flex-wrap">
             <div class=" md:w-[40%] sm:w-full md:p-10 sm:p-5 border border-primary shadow-xl shadow-[#6482983b] border-gray-300">
                 <h6>2023-2024</h6>
                 <h2 class="pt-2"><b>California University of ARTS</b></h2>

@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
   return (
     <>
-        <div className='text-2xl font-bold flex text-[#a82c7c] justify-center'> Projects </div>
+        <div id='projects' className='text-2xl font-bold flex text-[#a82c7c] justify-center md:mt-10 sm:mt-3'> Projects </div>
         <section className='bg-gray-100'>
         <div class="flex items-center justify-center gap-8 my-6 w-full  flex-wrap hover:border-l-2 hover:border-[#a82c7c]">
             <div className='flex md:flex-row sm:flex-col'>
@@ -47,7 +47,7 @@ const Projects = () => {
 
             <div className='flex md:flex-row sm:flex-col-reverse'>
                 <div class="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
-                    <p class="text-gray-400 mb-2">UI/UX Design</p>
+                    <p class="text-gray-400 mb-2">React & TailwindCSS</p>
                     <p>Restaurant </p>
                     <p class="pt-5">
                         In this Countries project, I used React and TailwindCSS to design a website 

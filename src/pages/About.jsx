@@ -3,8 +3,8 @@ import React from 'react'
 const AboutPage = () => {
   return (
     <>
-      <div className='flex flex-col items-center gap-8 md:mb-20 sm:mb-2'>
-        <p className=' text-2xl font-bold text-[#a82c7c] md:mt-10 sm:mt-2'>About me </p>
+      <div id='about' className='flex flex-col items-center justify-center gap-8 h-[80vh]'>
+        <p className=' text-2xl font-bold text-[#a82c7c] '>About me </p>
         <div className='flex gap-10'>
           <div className='flex flex-col gap-1'>
             <p class=""><b>Names:   </b></p>
@@ -20,6 +20,9 @@ const AboutPage = () => {
             <p class=" font-light text-lg">+250 783 399 776 </p>
             <p class=" font-light text-lg">Kigali, Kicukiro </p>
           </div>
+        </div>
+        <div>
+          <image href=''></image>
         </div>
       </div>
     </>
