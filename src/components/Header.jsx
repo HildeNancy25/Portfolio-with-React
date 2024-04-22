@@ -15,14 +15,14 @@ function Header () {
                 <p className='text-3xl text-yellow-600'>@</p>
                 <img className='w-40' src='logo.png'></img>
             </div>
-            <div className='text-xl flex gap-10 '>
+            <div className='text-xl hidden md:block'>
                 <a href='#about'> About </a>
                 <a href='#skills'> Skills </a>
                 <a href='#projects'> Projects </a>
                 <a href='#contact'> Contact </a>
             </div>
-            <div id='hidden-menu' className='hidden'>
-                <IoMenu />
+            <div>
+                <NavLink to={'/'} className={'block md:hidden'}><IoMenu /></NavLink>
             </div>
         </header>
     </>
