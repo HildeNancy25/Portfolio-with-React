@@ -4,25 +4,24 @@ import { IoMenu } from "react-icons/io5";
 
 function Header () {
 
-    const HiddenNavBar = () => {
-
-    }
-
   return (
     <>
-        <header className= "flex flex-row justify-evenly items-center bg-white">
+        <header className= "flex flex-row justify-evenly md:items-center bg-white">
             <div className='flex items-center'>
                 <p className='text-3xl text-yellow-600'>@</p>
                 <img className='w-40' src='logo.png'></img>
             </div>
-            <div className='text-xl hidden md:block'>
-                <a href='#about'> About </a>
-                <a href='#skills'> Skills </a>
-                <a href='#projects'> Projects </a>
-                <a href='#contact'> Contact </a>
-            </div>
-            <div>
-                <NavLink to={'/'} className={'block md:hidden'}><IoMenu /></NavLink>
+            <div className=' hidden md:block'>
+                    <div className='flex gap-10 text-xl'>
+                        <a href='#about' className='hover:text-[#a34181] hover:underline'> About </a>
+                        <a href='#skills' className='hover:text-[#a34181] hover:underline'> Skills </a>
+                        <a href='#projects' className='hover:text-[#a34181] hover:underline'> Projects </a>
+                        <a href='#contact' className='hover:text-[#a34181] hover:underline'> Contact </a>
+                    </div>
+                
+                <div>
+                    <a href={'/'} className={'block md:hidden bg-black text-2xl'}><IoMenu /></a>
+                </div>
             </div>
         </header>
     </>
