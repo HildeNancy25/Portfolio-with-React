@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
   return (
@@ -8,18 +9,18 @@ const Projects = () => {
         <div className="flex items-center justify-center gap-8 my-6 w-full  flex-wrap hover:border-l-2 hover:border-[#a82c7c]">
             <div className='flex md:flex-row sm:flex-col'>
                 <div className="md:w-[550px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
-                    <a href="https://hildenancy25.github.io/RockPaperScissors/">
+                    <Link to="https://hildenancy25.github.io/RockPaperScissors/">
                         <img src="rock.png" className="w-60"></img>
-                    </a>
-                    <a href="https://hildenancy25.github.io/AgeCalculator/">
+                    </Link>
+                    <Link to="https://hildenancy25.github.io/AgeCalculator/">
                         <img src="ageCalc.png" className="w-60"></img>
-                    </a>
-                    <a href="https://hildenancy25.github.io/Dice-Roll-Simulator/">
+                    </Link>
+                    <Link to="https://hildenancy25.github.io/Dice-Roll-Simulator/">
                         <img src="dice.png" className="w-60"></img>
-                    </a>
-                    <a href="https://hildenancy25.github.io/emoji/">
+                    </Link>
+                    <Link to="https://hildenancy25.github.io/emoji/">
                         <img src="emoji.png" className="w-60"></img>
-                    </a>
+                    </Link>
                 </div>
                 <div className="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
                     <p className="text-gray-400 mb-2">JavaScript, CSS, HTML</p>
@@ -55,12 +56,12 @@ const Projects = () => {
                         capital, population, area, currency, language, flag, and time zone.
                         Users could also search for specific countries by name or region.
                     </p>
-                    <a href="file:///C:/Users/HP/Downloads/FILINI%20Wireframe.pdf">
+                    <Link to="https://countries-app-3ge0.onrender.com">
                         <button className="px-3 py-1 mt-4 border rounded-full border-[#a82c7c] hover:bg-[#a82c7c]
                             hover:text-black">
                             View This Work
                         </button>
-                    </a>
+                    </Link>
                 </div>
                 <div className="md:w-[550px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
                     <img src="country.png" className=""></img>
@@ -80,12 +81,12 @@ const Projects = () => {
                         attention to detail and a focus on creating a user-friendly interface 
                         that seamlessly integrates with the user's fitness journey.
                     </p>
-                    <a href="https://www.figma.com/proto/dyPp0gJPkl42bwBPXJTUhz/WAKA-Fitness?type=design&node-id=1-3&t=Ev8ceDROkBUyKOUF-0&scaling=min-zoom&page-id=0%3A1">
+                    <Link to="https://www.figma.com/proto/dyPp0gJPkl42bwBPXJTUhz/WAKA-Fitness?type=design&node-id=1-3&t=Ev8ceDROkBUyKOUF-0&scaling=min-zoom&page-id=0%3A1">
                         <button className="px-3 py-1 mt-4 border rounded-full border-[#a82c7c] hover:bg-[#a82c7c]
                             hover:text-black">
                             View This Work
                         </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
             
@@ -104,12 +105,12 @@ const Projects = () => {
                         determination. focused on quality and creativity
                         where form meets function for a truly engaging experience.
                     </p>
-                    <a href="https://www.figma.com/proto/6FeRyIyBorQEXbrPMsZhPv/Promote-HER?type=design&node-id=38-2&t=SiXuRn9clZUUgu3Y-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1">
+                    <Link to="https://www.figma.com/proto/6FeRyIyBorQEXbrPMsZhPv/Promote-HER?type=design&node-id=38-2&t=SiXuRn9clZUUgu3Y-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1">
                         <button className="px-3 py-1 mt-4 border rounded-full border-[#a82c7c] hover:bg-[#a82c7c]
                             hover:text-black">
                             View This Work
                         </button>
-                    </a>
+                    </Link>
                 </div>
             
                 <div className="md:w-[550px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">

@@ -13,14 +13,14 @@ function Header () {
             </div>
             <div className=' hidden md:block'>
                     <div className='flex gap-10 text-xl'>
-                        <a href='#about' className='hover:text-[#a34181] hover:underline'> About </a>
-                        <a href='#skills' className='hover:text-[#a34181] hover:underline'> Skills </a>
-                        <a href='#projects' className='hover:text-[#a34181] hover:underline'> Projects </a>
-                        <a href='#contact' className='hover:text-[#a34181] hover:underline'> Contact </a>
+                        <Link to='#about' className='hover:text-[#a34181] hover:underline'> About </Link>
+                        <Link to='#skills' className='hover:text-[#a34181] hover:underline'> Skills </Link>
+                        <Link to='#projects' className='hover:text-[#a34181] hover:underline'> Projects </Link>
+                        <Link to='#contact' className='hover:text-[#a34181] hover:underline'> Contact </Link>
                     </div>
                 
                 <div>
-                    <a href={'/'} className={'block md:hidden bg-black text-2xl'}><IoMenu /></a>
+                    <Link to={'/'} className={'block md:hidden bg-black text-2xl'}><IoMenu /></Link>
                 </div>
             </div>
         </header>

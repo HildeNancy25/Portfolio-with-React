@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Resume = () => {
     return (
@@ -16,10 +17,10 @@ const Resume = () => {
                     <li> Web Design Strategy and Information Architecture</li>
                     <li> Strategy and Information Architecture</li>
                 </ul>
-                <a href="/src/assets/UIUXDesignSpecialist.pdf">
+                <Link to="/src/assets/UIUXDesignSpecialist.pdf">
                     <button className="px-3 py-1 mt-8 border rounded-full border-[#a82c7c] hover:bg-[#a82c7c]
                     hover:text-black"> VIEW CERTIFICATE </button>
-                </a>
+                </Link>
             </div>
 
             <div className=" md:w-[40%] sm:w-full md:p-10 sm:p-5 border border-primary shadow-xl shadow-[#6482983b] border-gray-300">
