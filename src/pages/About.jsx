@@ -1,46 +1,29 @@
 import React from 'react'
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { BsInstagram } from "react-icons/bs";
-import { Link } from 'react-router-dom';
-import { CgDribbble } from "react-icons/cg";
+import { Link } from 'react-router-dom'
 
-
-const AboutPage = () => {
+const About = () => {
   return (
     <>
-      <div id='about' className='flex flex-col items-center justify-center gap-8 h-[80vh]'>
-        <p className=' text-2xl font-bold text-[#a82c7c] '>About me </p>
-        <div className='flex flex-row-reverse items-center gap-24'>
-          <div className='flex gap-10'>
-            <div className='flex flex-col gap-1'>
-              <p className=""><b>Names:   </b></p>
-              <p><b>Birthday: </b></p>
-              <p><b>Email: </b></p>
-              <p><b>phone: </b></p>
-              <p><b>Address: </b></p>
-            </div>
-            <div>
-              <p className=" font-light text-lg">ISINGIZWE Hilde Nancy </p>
-              <p className=" font-light text-lg">25, November </p>
-              <p className=" font-light text-lg">hildenancyiz@gmail.com </p>
-              <p className=" font-light text-lg">+250 783 399 776 </p>
-              <p className=" font-light text-lg">Kigali, Kicukiro </p>
-            </div>
-          </div>
-          <div className='flex flex-col gap-2 md:text-3xl sm:text-xl'>
-            <Link to='https://github.com/HildeNancy25?tab=repositories'><FaGithub /></Link>
-            <Link to='https://www.linkedin.com/in/hilde-nancy-isingizwe-690573203/'><FaLinkedin /></Link>
-            <Link to='https://www.instagram.com/h___nancy/'><BsInstagram /></Link>
-            <Link to='https://dribbble.com/Nancy-H'><CgDribbble /></Link>
-        </div>
-        </div>
-        <div>
-          <image href=''></image>
-        </div>
+    <div className='flex flex-col items-center justify-center gap-10 pt-20 border-b-2 rounded-3xl bg-gradient-to-t from-slate-100 to-slate-50'>
+      <div>
+        <p className='underline underline-offset-4 decoration-[#40918a]'>ABOUT ME</p>
       </div>
+      <div>
+        <img src='me.jpeg' className='rounded-full w-[20vh]'></img>
+      </div>
+      <div className='flex flex-col items-center md:text-center sm:text-justify gap-5'>
+        <p className='md:text-3xl sm:text-2xl'>I'm Hilde Nancy Isingizwe</p>
+        <p className=' lg:w-[98vh] md:w-[80vh] sm:w-[50vh] md:p-0 sm:p-2'>Am a hardworking, courageous and good team player, committed to improving lives accross the globe by creating 
+          affordable and accessible tools by exproring opportunities in tech with product design and frontend Development
+        </p>
+      </div>
+      <div className='flex gap-3 pb-20 md:flex-row sm:flex-col'>
+        <button className='bg-[#40918a] hover:bg-[#1d524c] hover:text-slate-200 p-3 rounded-2xl z-0 mt-4'>HIRE ME</button>
+        <Link to='/src/assets/HildeCV.pdf'><button className='bg-[#40918a] hover:bg-[#1d524c] hover:text-slate-200 p-3 rounded-2xl z-0 mt-4 animate-pulse' download>DOWNLOAD MY CV</button></Link>
+      </div>
+    </div>
     </>
   )
 }
 
-export default AboutPage
+export default About

@@ -1,74 +1,95 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { PiCertificateLight } from "react-icons/pi";
+import Accordion from '../components/Accordion';
+import { GiDiploma } from "react-icons/gi";
+import { FaLocationDot } from "react-icons/fa6";
 
-const Resume = () => {
-    return (
-        <>
-        <div id='skills' className='text-2xl font-bold flex text-[#a82c7c] justify-center mb-5'> Skills </div>
-        <section className="flex md:flex-row sm:flex-col items-center justify-center gap-8 flex-wrap">
-            <div className=" md:w-[40%] sm:w-full md:p-10 sm:p-5 border border-primary shadow-xl shadow-[#6482983b] border-gray-300">
-                <h6>2023-2024</h6>
-                <h2 className="pt-2"><b>California University of ARTS</b></h2>
-                <p><i> UI/UX Specialisation </i></p>
-                <ul className="pt-3">
-                    <li className="underline underline-offset-2 text-[#a82c7c]"> SKILLS:</li>
-                    <li className="pt-2"> UX Design Fundamental</li>
-                    <li> Visual Elements or User Interface Design</li>
-                    <li> Web Design Strategy and Information Architecture</li>
-                    <li> Strategy and Information Architecture</li>
-                </ul>
-                <Link to="/src/assets/UIUXDesignSpecialist.pdf">
-                    <button className="px-3 py-1 mt-8 border rounded-full border-[#a82c7c] hover:bg-[#a82c7c]
-                    hover:text-black"> VIEW CERTIFICATE </button>
-                </Link>
+const Skills = () => {
+
+  return (
+    <>
+    <div className='p-4 flex flex-col items-center'>
+        <div>
+            <p className='underline underline-offset-4 decoration-[#40918a]'>SKILLS</p>
+        </div>
+        <div className=' flex md:flex-row sm:flex-col pt-10 gap-5'>
+            <div className='flex md:flex-row sm:flex-col gap-5  h-17'>
+                <div className='text-3xl'>
+                    <PiCertificateLight />
+                </div>
+                <div className='flex flex-col gap-2 w-[46vh] bg-[#cbe7e4] p-3'>
+                    <p className='font-bold text-xl'>California Institute of the ARTS</p>
+                    <p>Successfully completed the online non-credit specialization through Coursera </p>
+                    <div className='flex items-center gap-3'>
+                        <FaLocationDot />
+                        <p className='text-xl'>Online course </p>
+                    </div>
+                    <Accordion title='SKILLS GAINED' answer={'UX Design Fundamental, Visual Elements or User Interface Design,  Web Design Strategy and Information Architecture, Strategy and Information Architecture'} />
+                </div>
             </div>
-
-            <div className=" md:w-[40%] sm:w-full md:p-10 sm:p-5 border border-primary shadow-xl shadow-[#6482983b] border-gray-300">
-                <h6>2017-2022</h6>
-                <h2 className="pt-2"><b> University of RWANDA</b></h2>
-                <p><i> Information System </i></p>
-                <ul className="pt-3">
-                    <li className="underline underline-offset-2 text-[#a82c7c]"> SKILLS:</li>
-                    <li className="pt-2" > System Analysis and Design</li>
-                    <li> Computer Architecture</li>
-                    <li> Web Design </li>
-                    <li> Human Centerd Design</li>
-                    <li> System Modeling and Simulation</li>
-                    <li> Mobile Application Development</li>
-                    <li> Datbase Programming</li>
-                </ul>
-
+            <div className='flex md:flex-row sm:flex-col gap-5 items-start'>
+                <div className='text-3xl'>
+                    <GiDiploma />
+                </div>
+                <div className='flex flex-col gap-2 w-[46vh] bg-[#cbe7e4] p-3'>
+                    <p className='font-bold text-xl'>University of Rwanda</p>
+                    <p>Successfully completed the online non-credit specialization through Coursera </p>
+                    <div className='flex items-center gap-3'>
+                        <FaLocationDot />
+                        <p className='text-xl'>Kigali, Rwanda </p>
+                    </div>
+                    <Accordion title='SKILLS GAINED' answer={'Mobile Application Development, System Analysis and Design, Computer Architecture,  Web Design, Human Centerd Design, System Modeling and Simulation, Database Programming'} />
+                </div>
             </div>
-
-            <div className=" md:w-[40%] sm:w-full md:p-10 sm:p-5 border border-primary shadow-xl shadow-[#6482983b] border-gray-300">
-                <h6>2014-2016</h6>
-                <h2 className="pt-2"><b>Es. Marie Adelaide</b></h2>
-                <p><i> Mathematics-Computer science-Economics </i></p>
-                <ul className="pt-3">
-                    <li className="underline underline-offset-2 text-[#a82c7c]"> SKILLS:</li>
-                    <li className="pt-2"> c programming language</li>
-                    <li> c++ </li>
-                    <li> html and css</li>
-                    <li> MySQL and Oracle database developer</li>
-                </ul>
-
+            <div className='flex md:flex-row sm:flex-col gap-5 items-start'>
+                <div className='text-3xl'>
+                    <PiCertificateLight />
+                </div>
+                <div className='flex flex-col gap-2 w-[46vh] bg-[#cbe7e4] p-3'>
+                    <p className='font-bold text-xl'>Es. Marie Adelaide</p>
+                    <p> Mathematics-Computer science-Economics </p>
+                    <div className='flex items-center gap-3'>
+                        <FaLocationDot />
+                        <p className='text-xl'> Kamonyi, Rwanda </p>
+                    </div>
+                    <Accordion title='SKILLS GAINED' answer={'C programming language, C++,  HTML and CSS, MySQL and Oracle darabase programming'} />
+                </div>
             </div>
-
-            <div className="md:w-[40%] sm:w-full md:p-10 sm:p-5 border border-primary shadow-xl shadow-[#6482983b] border-gray-300">
-                <h6>2015-2024</h6>
-                <h2><b> Certificates of completion</b></h2>
-                <ul className="pt-3">
-                    <li> 2024: UI/UX Fundamental</li>
-                    <li> 2024: Visual Elements or User Interface Design</li>
-                    <li> 2024: Web Design Strategy and Information Architecture</li>
-                    <li> 2021: Resonate, RISE & STEM in partenership with Girls in ICT</li>
-                    <li> 2017: Student for Liberty Rwanda</li>
-                    <li> 2015: Debate Competition Winner Learner</li>
-                </ul>
+        </div>
+        <p className='underline underline-offset-4 decoration-[#40918a] mt-10'>PROGRAMMING SKILLS</p>
+        <div className='flex md:flex-row sm:flex-col md:gap-20 sm:gap-0 mt-8'>
+            <div>
+                <p className="mt-3">React:</p>
+                <div className="bg-gray-300 w-56 h-3 rounded-full">
+                    <div className="bg-[#40918a] w-36 h-3 rounded-full"> </div>
+                </div>
+                <p className="mt-3">JavaScript:</p>
+                <div className="bg-gray-300 w-56 h-3 rounded-full">
+                    <div className="bg-[#40918a] w-32 h-3 rounded-full"> </div>
+                </div>
+                <p>CSS:</p>
+                <div className="bg-gray-300 w-56 h-3 rounded-full">
+                    <div className="bg-[#40918a] w-48 h-3 rounded-full"> </div>
+                </div>
             </div>
-        </section>
-        </>
-    )
+            <div>
+                <p className="mt-3">TailwindCSS:</p>
+                <div className="bg-gray-300 w-56 h-3 rounded-full">
+                    <div className="bg-[#40918a] w-48 h-3 rounded-full"> </div>
+                </div>
+                <p>HTML:</p>
+                <div className="bg-gray-300 w-56 h-3 rounded-full">
+                    <div className="bg-[#40918a] w-52 h-3 rounded-full"> </div>
+                </div>
+                <p className="mt-3">Figma:</p>
+                <div className="bg-gray-300 w-56 h-3 rounded-full">
+                    <div className="bg-[#40918a] w-48 h-3 rounded-full"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </>
+  )
 }
 
-export default Resume
+export default Skills
