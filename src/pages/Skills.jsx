@@ -61,11 +61,11 @@ const Skills = () => {
             <div>
                 <p className="mt-3">React:</p>
                 <div className="bg-gray-300 w-56 h-3 rounded-full">
-                    <div className="bg-[#40918a] w-36 h-3 rounded-full"> </div>
+                    <div className="bg-[#40918a] w-48 h-3 rounded-full"> </div>
                 </div>
                 <p className="mt-3">JavaScript:</p>
                 <div className="bg-gray-300 w-56 h-3 rounded-full">
-                    <div className="bg-[#40918a] w-32 h-3 rounded-full"> </div>
+                    <div className="bg-[#40918a] w-36 h-3 rounded-full"> </div>
                 </div>
                 <p>CSS:</p>
                 <div className="bg-gray-300 w-56 h-3 rounded-full">

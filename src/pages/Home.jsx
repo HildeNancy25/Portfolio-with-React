@@ -46,7 +46,7 @@ function HomePage() {
         <Resume />
         <Projects />
         <Contact />
-        <SocialMedia />
+        {/* <SocialMedia /> */}
 
       </div>
     </>

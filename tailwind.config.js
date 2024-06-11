@@ -13,7 +13,10 @@ export default {
     extend: {
       backgroundImage:{
         'homebg': "url['bg.jpg']",
-      }
+      },
+      blur:{
+        sm:'1px',
+      },
     },
   },
   plugins: [],
