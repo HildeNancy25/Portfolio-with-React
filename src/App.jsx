@@ -5,7 +5,6 @@ import {
   Route
  } from 'react-router-dom'
 import HomePage from './pages/Home'
-import Layout from './layout/Layout'
 import About from './pages/About'
 import Skills from './pages/Skills'
 import Projects from './pages/Projects'
@@ -19,10 +18,7 @@ const App = () => {
       <Router>
         <Header />
         <Routes>
-          {/* <Route 
-            path ='/'
-            element ={<Layout/>}
-          > */}
+          
             <Route 
             path ='/'
             element ={<HomePage/>}

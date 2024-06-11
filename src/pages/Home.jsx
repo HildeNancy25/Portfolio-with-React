@@ -38,7 +38,7 @@ function HomePage() {
                 <Link to='https://dribbble.com/Nancy-H'><CgDribbble /></Link>
               </div>
             </div>
-            <Link to=''><button className='bg-[#40918a] hover:bg-[#1d524c] hover:text-slate-200 p-3 rounded-2xl z-0 mt-4'> <b>CONTACT ME</b> </button></Link>
+            <Link to='/contact'><button className='bg-[#40918a] hover:bg-[#1d524c] hover:text-slate-200 p-3 rounded-2xl z-0 mt-4'> <b>CONTACT ME</b> </button></Link>
           </div>
           <div>
         </div>
