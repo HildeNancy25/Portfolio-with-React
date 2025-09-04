@@ -18,7 +18,7 @@ const About = () => {
         </p>
       </div>
       <div className='flex gap-3 pb-20 md:flex-row sm:flex-col'>
-        <a href='/src/assets/HildeCV.pdf' download='Hilde Nancy CV'><button className='bg-[#40918a] hover:bg-[#1d524c] hover:text-slate-200 p-3 rounded-2xl z-0 mt-4 animate-pulse' download>DOWNLOAD MY CV</button></a>
+          <Link to='/contact'><button className='bg-[#40918a] hover:bg-[#1d524c] hover:text-slate-200 p-3 rounded-2xl z-0 mt-4'> <b>CONTACT ME</b> </button></Link>
       </div>
     </div>
     </>

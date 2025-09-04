@@ -36,10 +36,10 @@ const Projects = () => {
                             <p className="text-gray-400 mb-2">UI/UX Design</p>
                             <p>Kuriye</p>
                             <p className="pt-5">
-                                In this project, I designed a website
-                                The app could provide basic information about each country, such as its name,
-                                capital, population, area, currency, language, flag, and time zone.
-                                Users could also search for specific countries by name.
+                                I used Figma to design a clean and user-friendly courier service platform for Kuriye. The design highlights trust and reliability, 
+                                showing how customers can easily send and receive packages while tracking their deliveries in real time.
+                                The interface focuses on simplicity, modern visuals, and clear calls to action, ensuring that users can 
+                                quickly understand the service, feel confident in using it, and enjoy a seamless delivery experience.
                             </p>
                             <Link to="https://www.figma.com/design/FmxBZzaccw23LnMRgu41CO/Kuriye-Figma-Design?node-id=0-1&p=f&t=MwmePm3SE4Rbd11i-0">
                                 <button className="px-3 py-1 mt-4 border rounded-full border-[#40918a] shadow-lg hover:bg-[#40918a]
@@ -61,7 +61,7 @@ const Projects = () => {
                             <p className="text-gray-400 mb-2">UI/UX Design</p>
                             <p>Globi Explore</p>
                             <p className="pt-5">
-                                In this project I used figma technologies to come up with a user friendly social travel platform 
+                                With figma technologies to come up with a user friendly social travel platform 
                                 that helps users plan trips, book services, and find travel buddies to share experiences with.
                                  It also builds a connected community where travelers can share stories, tips, and invitations.
                             </p>
