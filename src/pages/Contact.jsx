@@ -21,7 +21,7 @@ const Contact = () => {
               <input className="p-1 mt-2  border-2 rounded-lg border-gray-300 bg-gray-200" type="email" name='email' placeholder="Enter your e-mail" required />
               Message:
               <textarea className="p-1 h-40  border-2 rounded-lg border-gray-300 bg-gray-200" placeholder="Enter your message here!" name='type' required></textarea>
-            <button className="bg-[#40918a] w-[20vh] mt-3 mb-3 p-3 rounded-2xl animate-pulse" type='submit'>Send Message</button>
+            <button className="bg-[#40918a] w-[20vh] mt-3 mb-3 p-3 rounded-2xl" type='submit'>Send Message</button>
 
             </form>
           </div>

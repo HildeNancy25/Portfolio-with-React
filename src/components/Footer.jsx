@@ -1,35 +1,75 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import React from "react";
+import { Link } from "react-router-dom";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { CgDribbble } from "react-icons/cg";
 
-function SocialMedia() {
+function Footer() {
   return (
-    <>
-      <div className='p-5 flex flex-col justify-center gap-10 items-center bg-gray-100 mt-5'>
+    <footer className="bg-gray-100 mt-10 py-6 px-5">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
 
-        <div className=''>
-          <h2 className='text-3xl font-semibold'> Hilde Nancy I.</h2>
-        </div>
-        <div className='flex gap-2 md:text-3xl sm:text-xl text-black'>
-          <div className=''>
-            <Link to='https://github.com/HildeNancy25?tab=repositories'><FaGithub /></Link>
-          </div>
-          <div className=''>
-            <Link to='https://www.linkedin.com/in/hilde-nancy-isingizwe-690573203/'><FaLinkedin /></Link>
-          </div>
-          <div className=''>
-            <Link to='https://www.instagram.com/h___nancy/'><BsInstagram /></Link>
-          </div>
-          <div className=''>
-            <Link to='https://dribbble.com/Nancy-H'><CgDribbble /></Link>
-          </div>
+        {/* Brand / Name */}
+        <h2 className="text-xl font-semibold">Hilde Nancy I.</h2>
+
+        {/* Quick Links */}
+        <nav className="flex gap-6 text-lg">
+          <Link
+            to="/"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="hover:text-[#a34181] hover:underline"
+          >
+            Home
+          </Link>
+          <Link to="/about" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="hover:text-[#a34181] hover:underline">
+            About
+          </Link>
+          <Link to="/skills" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="hover:text-[#a34181] hover:underline">
+            Education
+          </Link>
+          <Link to="/projects" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="hover:text-[#a34181] hover:underline">
+            Projects
+          </Link>
+          <Link to="/contact" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="hover:text-[#a34181] hover:underline">
+            Contact
+          </Link>
+        </nav>
+
+        {/* Social Media */}
+        <div className="flex gap-5 text-2xl text-black">
+          <a
+            href="https://github.com/HildeNancy25?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#a34181]"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hilde-nancy-isingizwe-690573203/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#a34181]"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://www.instagram.com/h___nancy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#a34181]"
+          >
+            <BsInstagram />
+          </a>
         </div>
       </div>
-    </>
-  )
+
+      {/* Copyright */}
+      <p className="mt-6 text-center text-sm text-gray-600">
+        © {new Date().getFullYear()} Hilde Nancy I. All rights reserved.
+      </p>
+    </footer>
+  );
 }
 
-export default SocialMedia
+export default Footer;

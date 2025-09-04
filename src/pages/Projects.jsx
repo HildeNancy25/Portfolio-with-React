@@ -9,9 +9,73 @@ const Projects = () => {
                 <div className="flex items-center justify-center gap-8 my-6 w-full  flex-wrap hover:border-l-2 hover:border-[#40918a]">
 
                     <div className='flex md:flex-row sm:flex-col'>
-                        <div className="md:w-[550px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
-                            <img src="./AgriSoko.png" className="w-[90vh] object-fill rounded-sm"></img>
+                        <div className="md:w-[550px] md:h-96 max-auto flex justify-center gap-3 roundes-2xl p-5">
+                            <img src="./Splash.png" className=" object-fill rounded-sm"></img>
+                            <img src="./Onboarding.png" className=" object-fill rounded-sm"></img>
+                            <img src="./Onboarding2.png" className=" object-fill rounded-sm"></img>
                         </div>
+                        <div className="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
+                            <p className="text-gray-400 mb-2">UI/UX Design</p>
+                            <p>TravelAI</p>
+                            <p className="pt-5">
+                                Using Figma to make a fluid platform that allows you to embark on immersive virtual tours and interact with local hosts from anywhere. 
+                                You can easily explore and book unique travel experiences, accommodations, and activities while discovering and supporting Black-owned 
+                                businesses wherever you go. Enjoy authentic travel experiences and connect with communities
+                            </p>
+                            <Link to="https://www.figma.com/design/sllt1IViGgoWJHnz6TW4Jq/TravelAI-Design-File?node-id=0-1&p=f&t=lwtwdIWhhWk3BshG-0">
+                                <button className="px-3 py-1 mt-4 border rounded-full border-[#40918a] shadow-lg hover:bg-[#40918a]
+                            hover:text-black">
+                                    View This Work
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className='flex md:flex-row sm:flex-col-reverse'>
+                        <div className="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
+                            <p className="text-gray-400 mb-2">UI/UX Design</p>
+                            <p>Kuriye</p>
+                            <p className="pt-5">
+                                In this project, I designed a website
+                                The app could provide basic information about each country, such as its name,
+                                capital, population, area, currency, language, flag, and time zone.
+                                Users could also search for specific countries by name.
+                            </p>
+                            <Link to="https://www.figma.com/design/FmxBZzaccw23LnMRgu41CO/Kuriye-Figma-Design?node-id=0-1&p=f&t=MwmePm3SE4Rbd11i-0">
+                                <button className="px-3 py-1 mt-4 border rounded-full border-[#40918a] shadow-lg hover:bg-[#40918a]
+                            hover:text-black">
+                                    View This Work
+                                </button>
+                            </Link>
+                        </div>
+                        <div className="md:w-[550px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
+                            <img src="Kuriye.png" className=' rounded-sm'></img>
+                        </div>
+                    </div>
+
+                    <div className='flex md:flex-row sm:flex-col'>
+                        <div className="md:w-[550px] max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
+                            <img src="./Globi.png" className=" rounded-sm"></img>
+                        </div>
+                        <div className="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
+                            <p className="text-gray-400 mb-2">UI/UX Design</p>
+                            <p>Globi Explore</p>
+                            <p className="pt-5">
+                                In this project I used figma technologies to come up with a user friendly social travel platform 
+                                that helps users plan trips, book services, and find travel buddies to share experiences with.
+                                 It also builds a connected community where travelers can share stories, tips, and invitations.
+                            </p>
+                            <Link to="https://www.figma.com/design/3UHK5ZHDdgFioCOMOjT2EW/GlobiExplore?node-id=631-1302&t=O2RfpnyIqO3hZZHQ-0">
+                                <button className="px-3 py-1 mt-4 border rounded-full border-[#40918a] shadow-lg hover:bg-[#40918a]
+                            hover:text-black">
+                                    View This Work
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className='flex md:flex-row sm:flex-col'>
+                        
                         <div className="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
                             <p className="text-gray-400 mb-2">React JS</p>
                             <p>AgriSoko Connect</p>
@@ -27,94 +91,8 @@ const Projects = () => {
                                 </button>
                             </Link>
                         </div>
-                    </div>
-
-                    <div className='flex md:flex-row sm:flex-col-reverse'>
-                        <div className="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
-                            <p className="text-gray-400 mb-2">React & TailwindCSS</p>
-                            <p>Rest Countries </p>
-                            <p className="pt-5">
-                                In this Countries project, I used React and TailwindCSS to design a website
-                                The app could provide basic information about each country, such as its name,
-                                capital, population, area, currency, language, flag, and time zone.
-                                Users could also search for specific countries by name.
-                            </p>
-                            <Link to="https://countries-app-3ge0.onrender.com">
-                                <button className="px-3 py-1 mt-4 border rounded-full border-[#40918a] shadow-lg hover:bg-[#40918a]
-                            hover:text-black">
-                                    View This Work
-                                </button>
-                            </Link>
-                        </div>
                         <div className="md:w-[550px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
-                            <img src="country.png" className=' rounded-sm'></img>
-                        </div>
-                    </div>
-
-                    <div className='flex md:flex-row sm:flex-col'>
-                        <div className="md:w-[550px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
-                            <Link to="https://hildenancy25.github.io/RockPaperScissors/">
-                                <img src="rock.png" className="w-60 hover:blur-sm rounded-sm"></img>
-                            </Link>
-                            <Link to="https://hildenancy25.github.io/AgeCalculator/">
-                                <img src="ageCalc.png" className="w-60 hover:blur-sm rounded-sm"></img>
-                            </Link>
-                            <Link to="https://hildenancy25.github.io/Dice-Roll-Simulator/">
-                                <img src="dice.png" className="w-60 hover:blur-sm rounded-sm"></img>
-                            </Link>
-                            <Link to="https://hildenancy25.github.io/emoji/">
-                                <img src="emoji.png" className="w-60 hover:blur-sm rounded-sm"></img>
-                            </Link>
-                        </div>
-                        <div className="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
-                            <p className="text-gray-400 mb-2">JavaScript, CSS, HTML</p>
-                            <p>Rock Paper Sciscors, Age calculator, Dice Roll Simulator and Random Emoji Generator </p>
-                            <p className="pt-5">
-                                this was quite amazing in both creation and testing. Building efficiency one
-                                line of code at a time! Dive into a project fueled by JavaScript, HTML, and CSS,
-                                where productivity meets innovation.
-                            </p>
-                            <p className="mt-3">JavaScript:</p>
-                            <div className="bg-gray-300 w-56 h-3 rounded-full">
-                                <div className="bg-[#40918a] w-48 h-3 rounded-full"> </div>
-                            </div>
-                            <p>CSS:</p>
-                            <div className="bg-gray-300 w-56 h-3 rounded-full">
-                                <div className="bg-[#40918a] w-8 h-3 rounded-full"> </div>
-                            </div>
-                            <p>HTML:</p>
-                            <div className="bg-gray-300 w-56 h-3 rounded-full">
-                                <div className="bg-[#40918a] w-14 h-3 rounded-full"> </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div className='flex md:flex-row sm:flex-col-reverse'>
-                        <div className="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
-                            <p className="text-gray-400 mb-2">
-                                UI/UX Design
-                            </p>
-                            <p>
-                                PROMOTE HER - mobile app
-                            </p>
-                            <p className="pt-5">
-                                In the "Promote Her" project, I used Figma
-                                to create a vibrant and engaging digital experience
-                                for for Elevating young entrepreneur women who  pursued her dreams with unwavering
-                                determination. focused on quality and creativity
-                                where form meets function for a truly engaging experience.
-                            </p>
-                            <Link to="https://www.figma.com/proto/6FeRyIyBorQEXbrPMsZhPv/Promote-HER?type=design&node-id=38-2&t=SiXuRn9clZUUgu3Y-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1">
-                                <button className="px-3 py-1 mt-4 border rounded-full border-[#40918a] shadow-lg hover:bg-[#40918a]
-                            hover:text-black">
-                                    View This Work
-                                </button>
-                            </Link>
-                        </div>
-
-                        <div className="md:w-[550px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
-                            <img src="Proj3.png" className="w-[56vh] h-[56vh] object-cover rounded-sm"></img>
+                            <img src="./AgriSoko.png" className="w-[90vh] object-fill rounded-sm"></img>
                         </div>
                     </div>
                 </div>
