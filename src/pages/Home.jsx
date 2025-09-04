@@ -18,7 +18,6 @@ function HomePage() {
     <>
       <div className=' font-serif'>
           <div className='fixed w-full z-10'>
-            {/* <Header /> */}
           </div>
           <div className="flex flex-col items-center justify-center gap-6 w-full h-[98vh] bg-[url('/public/bg.jpg')] bg-cover md:px-0 sm:px-4">
           <p className='lg:text-5xl md:text-4xl sm:text-3xl text-white md:w-[96vh] sm:w-[50vh] text-center'>UI/UX Designer and Frontend developer</p>
@@ -43,8 +42,6 @@ function HomePage() {
         <Resume />
         <Projects />
         <Contact />
-        {/* <SocialMedia /> */}
-
       </div>
     </>
   )

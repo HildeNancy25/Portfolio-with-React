@@ -6,13 +6,13 @@ const Projects = () => {
         <>
             <div id='projects' className='text-2xl font-bold flex text-[#40918a] justify-center md:mt-10 sm:mt-3'> Projects </div>
             <section className='bg-gray-100'>
-                <div className="flex items-center justify-center gap-8 my-6 w-full  flex-wrap hover:border-l-2 hover:border-[#40918a]">
+                <div className="flex items-center justify-center gap-8 my-6 py-10 w-full  flex-wrap hover:border-l-2 hover:border-[#40918a]">
 
                     <div className='flex md:flex-row sm:flex-col'>
                         <div className="md:w-[550px] md:h-96 max-auto flex justify-center gap-3 roundes-2xl p-5">
-                            <img src="./Splash.png" className=" object-fill rounded-sm"></img>
-                            <img src="./Onboarding.png" className=" object-fill rounded-sm"></img>
-                            <img src="./Onboarding2.png" className=" object-fill rounded-sm"></img>
+                            <img src="./Splash.png" className=" relative object-cover rounded-sm transition-transform duration-500 transform hover:scale-110"></img>
+                            <img src="./Onboarding.png" className=" relative object-cover rounded-sm transition-transform duration-500 transform hover:scale-110"></img>
+                            <img src="./Onboarding2.png" className=" relative object-cover rounded-sm transition-transform duration-500 transform hover:scale-110"></img>
                         </div>
                         <div className="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
                             <p className="text-gray-400 mb-2">UI/UX Design</p>
@@ -32,7 +32,7 @@ const Projects = () => {
                     </div>
 
                     <div className='flex md:flex-row sm:flex-col-reverse'>
-                        <div className="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
+                        <div className="md:w-[600px] md:h-96  roundes-2xl p-5">
                             <p className="text-gray-400 mb-2">UI/UX Design</p>
                             <p>Kuriye</p>
                             <p className="pt-5">
@@ -48,14 +48,18 @@ const Projects = () => {
                                 </button>
                             </Link>
                         </div>
-                        <div className="md:w-[550px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
-                            <img src="Kuriye.png" className=' rounded-sm'></img>
+                        <div className="md:w-[700px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
+                            <img src="Kuriye.png" className='relative object-cover rounded-sm transition-transform duration-500 transform hover:scale-110'></img>
                         </div>
                     </div>
 
                     <div className='flex md:flex-row sm:flex-col'>
                         <div className="md:w-[550px] max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
-                            <img src="./Globi.png" className=" rounded-sm"></img>
+                            <img
+                                src="./Globi.png"
+                                alt="Globi"
+                                className="relative object-cover rounded-sm transition-transform duration-500 transform hover:scale-110"
+                            />
                         </div>
                         <div className="md:w-[600px] md:h-96 max-auto roundes-2xl p-5">
                             <p className="text-gray-400 mb-2">UI/UX Design</p>
@@ -91,8 +95,8 @@ const Projects = () => {
                                 </button>
                             </Link>
                         </div>
-                        <div className="md:w-[550px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
-                            <img src="./AgriSoko.png" className="w-[90vh] object-fill rounded-sm"></img>
+                        <div className="md:w-[700px] md:h-96 max-auto flex flex-wrap justify-center gap-3 roundes-2xl p-5">
+                            <img src="./AgriSoko.png" className="relative object-cover rounded-sm transition-transform duration-500 transform hover:scale-110"></img>
                         </div>
                     </div>
                 </div>
